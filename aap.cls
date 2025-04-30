@@ -2,7 +2,7 @@
 % SPDX-License-Identifier: MIT
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aap}
+\ProvidesClass{aap[Alexey Ponikarov]
 \LoadClass[12pt]{article}
 \RequirePackage{xcolor}
   \definecolor{my-blue}{RGB}{5,60,94}
@@ -52,7 +52,7 @@
   \large
 }
 \newcommand\myPhoto{%
-  \begin{textblock}{3.2}[1,0](14,1.8){
+  \begin{textblock}{3.2}[1,0](14,1.7){
     \includegraphics[width=\textwidth]{me.jpg}
   }\end{textblock}
 }
