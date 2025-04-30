@@ -2,7 +2,7 @@
 % SPDX-License-Identifier: MIT
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aap}[Yegor256 template]
+\ProvidesClass{aap}[https://github.com/ponikz/resume]
 \LoadClass[12pt]{article}
 \RequirePackage{xcolor}
   \definecolor{my-blue}{RGB}{5,60,94}
