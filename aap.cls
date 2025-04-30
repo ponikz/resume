@@ -29,7 +29,6 @@
     }\end{textblock}
   }
 
-% Replace this with \RequirePackage{href-ul}
 \RequirePackage[normalem]{ulem}
 \RequirePackage[hidelinks]{hyperref}
   \makeatletter\begingroup
@@ -41,8 +40,6 @@
     }%
   \endgroup\makeatother
 
-\newcommand\nospell[1]{#1}
-
 \AtBeginDocument{%
   \setlength{\topskip}{0mm}
   \setlength{\parindent}{0pt}
@@ -51,6 +48,7 @@
   % \raggedbottom
   \large
 }
+
 \newcommand\myPhoto{%
   \begin{textblock}{3.2}[1,0](14,1.7){
     \includegraphics[width=\textwidth]{me.jpg}
