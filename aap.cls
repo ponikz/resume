@@ -48,9 +48,17 @@
      \fill[my-blue] (current page.south west) rectangle ++(2\TPHorizModule,16\TPVertModule);
    \end{tikzpicture}%
  }
- 
 
- \RequirePackage{href-ul}
+\RequirePackage[normalem]{ulem}
+\RequirePackage[hidelinks]{hyperref}
+  \makeatletter\begingroup
+    \catcode`\$=6 %
+    \catcode`\#=12 %
+    \gdef\href@split$1#$2#$3\\$4{%
+      \hyper@@link{$1}{$2}{\uline{$4}}%
+      \endgroup
+    }%
+  \endgroup\makeatother
  
  \newcommand\nospell[1]{#1}
  
