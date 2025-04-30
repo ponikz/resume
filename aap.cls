@@ -2,7 +2,7 @@
 % SPDX-License-Identifier: MIT
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aap}[30/04/2025 Latex formatting resume]
+\ProvidesClass{aap}[30/04/2025 from yegor256 template]
 \LoadClass[12pt]{article}
 \RequirePackage{xcolor}
   \definecolor{my-blue}{RGB}{5,60,94}
