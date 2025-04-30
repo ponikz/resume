@@ -18,16 +18,15 @@
   \pagestyle{fancy}
   \renewcommand{\headrulewidth}{0pt}
   \fancyhf{}
-  \fancyfoot[C]{{
+  \fancyfoot[C]{
     \ifnum\value{page}=1\else
       \color{gray} page \thepage{} of \pageref{LastPage}
     \fi
-  }}
-  \fancyfoot[C]{
+  }
+  \fancyfoot[L]{
     \begin{textblock}{2}(0,0){
       \tikz[x=\TPHorizModule,y=\TPVertModule] \filldraw[fill=my-blue, draw=none] (0,0) rectangle (2,16);
     }\end{textblock}
-
   }
 
 % Replace this with \RequirePackage{href-ul}
