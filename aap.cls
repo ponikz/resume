@@ -52,7 +52,7 @@
   \large
 }
 \newcommand\myPhoto{%
-  \begin{textblock}{2.8}[1,0](14,1.5){
+  \begin{textblock}{3.2}[1,0](14,1.8){
     \includegraphics[width=\textwidth]{me.jpg}
   }\end{textblock}
 }
