@@ -23,11 +23,6 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
-\fancyfoot[L]{%
-  \begin{tikzpicture}[remember picture,overlay]
-    \fill[my-blue] (current page.south west) rectangle ++(2\TPHorizModule,16\TPVertModule);
-  \end{tikzpicture}%
-}
 
 \RequirePackage[normalem]{ulem}
 \RequirePackage{href-ul}
