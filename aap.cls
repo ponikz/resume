@@ -27,7 +27,6 @@
     \begin{textblock}{2}(0,0){
       \tikz[x=\TPHorizModule,y=\TPVertModule] \filldraw[fill=my-blue, draw=none] (0,0) rectangle (2,16);
     }\end{textblock}
-
   }
 
 % Replace this with \RequirePackage{href-ul}
@@ -53,7 +52,7 @@
   \large
 }
 \newcommand\myPhoto{%
-  \begin{textblock}{2.8}[1,0](14,1){
+  \begin{textblock}{2.8}[1,0](14,1.5){
     \includegraphics[width=\textwidth]{me.jpg}
   }\end{textblock}
 }
